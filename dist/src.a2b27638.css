@@ -15,5 +15,63 @@ code {
   border-radius: 5px;
 }
 
+/** 
+  property - 1 Meaning
+  20px --> horizantal Offset
+  20px --> Vertical Offset 
+
+ **/
+.property-1 {
+  box-shadow: 20px 20px;
+}
+
+/**
+ 5px --> Blur radius 
+**/
+.property-2 {
+  box-shadow: 20px 20px 5px;
+}
+
+/**
+  -10px ---> Spread the blur px and blur it 
+  Note : Accept negative Value
+**/
+.property-3 {
+  box-shadow: 0px 0px 15px -10px;
+}
+
+/**
+  Note : 
+  currentColor property --> which is used to make use of the color value in the css declared scope
+**/
+
+/**
+  red -- color of the box-shadow
+**/
+.property-4 {
+  box-shadow: 20px 20px 20px 10px red;
+}
+
+/**
+inset --> invertion of the shadow
+**/
+.property-5 {
+  box-shadow: inset 0px 0px 10px 0px red;
+}
+
+/**
+  Multiple Box Shadow :
+**/
+.property-6 {
+  box-shadow: 10px 10px 10px 10px red, -10px -10px 10px 10px green;
+}
+
+/**
+Best Practise : 0px 
+**/
+.property-7 {
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
 
 /*# sourceMappingURL=/src.a2b27638.css.map */
